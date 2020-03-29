@@ -1,1 +1,2 @@
-export * from './src/index.js';
+export * from './src/colors.js';
+export * from './src/icons.js';

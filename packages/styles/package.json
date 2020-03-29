@@ -4,10 +4,6 @@
   "description": "Styles for cmmd applications",
   "author": "carlosmmdiaz",
   "homepage": "https://github.com/carlosmmdiaz/cmmd-web/packages/styles",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/carlosmmdiaz/cmmd-web.git",
@@ -20,14 +16,6 @@
   ],
   "main": "index.js",
   "module": "index.js",
-  "files": [
-    "docs",
-    "src",
-    "stories",
-    "test",
-    "translations",
-    "*.js"
-  ],
   "devDependencies": {
     "@open-wc/demoing-storybook": "^0.2.0"
   }

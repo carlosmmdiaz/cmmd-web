@@ -1,0 +1,28 @@
+{
+  "name": "@cmmd-web/button",
+  "version": "1.0.0",
+  "description": "Button for cmmd applications",
+  "author": "carlosmmdiaz",
+  "homepage": "https://github.com/carlosmmdiaz/cmmd-web/packages/button",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosmmdiaz/cmmd-web.git",
+    "directory": "packages/button"
+  },
+  "keywords": [
+    "cmmd",
+    "web-components",
+    "button"
+  ],
+  "main": "index.js",
+  "module": "index.js",
+  "dependencies": {
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.0.0",
+    "@lion/button": "0.5.10",
+    "@cmmd-web/styles": "1.0.0"
+  },
+  "devDependencies": {
+    "@open-wc/demoing-storybook": "^1.15.0"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "@cmmd-web/button",
   "version": "1.0.0",
-  "description": "Button for cmmd applications",
+  "description": "Button for CMMD applications",
   "author": "carlosmmdiaz",
   "homepage": "https://github.com/carlosmmdiaz/cmmd-web/packages/button",
   "repository": {

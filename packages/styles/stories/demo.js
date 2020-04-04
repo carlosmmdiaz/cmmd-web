@@ -1,14 +1,27 @@
 import { LitElement, css, html } from 'lit-element';
-import { primary, secondary, secondaryOverBlue, background } from '../src/colors.js';
+import {
+  blue,
+  lightBlue,
+  darkBlue,
+  red,
+  lightRed,
+  darkRed,
+  black,
+  lightBlack,
+  darkBlack,
+  white,
+  grey,
+} from '../src/colors.js';
 
 export class StylesDemo extends LitElement {
   static get styles() {
     return css`
       :root {
-        background: ${background};
+        background: ${white};
       }
       h1 {
-        color: ${primary};
+        margin: 10px;
+        color: ${black};
       }
 
       ul {
@@ -17,40 +30,89 @@ export class StylesDemo extends LitElement {
         padding: 0;
       }
 
-      .box {
-        width: 100%;
-        padding: 20px;
-        border: 1px solid black;
-        margin-bottom: 5px;
+      li {
+        margin: 10px;
+        display: inline-block;
       }
 
-      .primary {
-        background: ${primary};
+      .box {
+        width: 200px;
+        padding: 20px;
+        border-radius: 3px;
       }
-      .secondary {
-        background: ${secondary};
-        color: ${secondaryOverBlue};
+
+      .blue {
+        background: ${blue};
+        color: ${white};
       }
-      .secondaryOverBlue {
-        background: ${secondaryOverBlue};
+
+      .lightBlue {
+        background: ${lightBlue};
       }
-      .background {
-        background: ${background};
+
+      .darkBlue {
+        background: ${darkBlue};
+        color: ${white};
+      }
+
+      .red {
+        background: ${red};
+        color: ${white};
+      }
+
+      .lightRed {
+        background: ${lightRed};
+      }
+
+      .darkRed {
+        background: ${darkRed};
+        color: ${white};
+      }
+
+      .black {
+        background: ${black};
+        color: ${white};
+      }
+
+      .lightBlack {
+        background: ${lightBlack};
+      }
+
+      .darkBlack {
+        background: ${darkBlack};
+        color: ${white};
+      }
+
+      .white {
+        background: ${white};
+        border: 1px solid ${lightBlue};
+      }
+
+      .grey {
+        background: ${grey};
       }
     `;
   }
-  
+
   render() {
     return html`
       <h1 class="h1">Colors</h1>
       <ul>
-        <li class="box primary">Primary ${primary}</li>
-        <li class="box secondary">Secondary ${secondary}</li>
-        <li class="box secondaryOverBlue">secondaryOverBlue ${secondaryOverBlue}</li>
-        <li class="box background">Background ${background}</li>
+        <li class="box lightBlue">lightBlue ${lightBlue}</li>
+        <li class="box blue">blue ${blue}</li>
+        <li class="box darkBlue">darkBlue ${darkBlue}</li>
+        <br />
+        <li class="box lightRed">lightRed ${lightRed}</li>
+        <li class="box red">red ${red}</li>
+        <li class="box darkRed">darkRed ${darkRed}</li>
+        <br />
+        <li class="box lightBlack">lightBlack ${lightBlack}</li>
+        <li class="box black">black ${black}</li>
+        <li class="box darkBlack">darkBlack ${darkBlack}</li>
+        <br />
+        <li class="box white">white ${white}</li>
+        <li class="box grey">grey ${grey}</li>
       </ul>
     `;
   }
 }
-
-

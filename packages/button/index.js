@@ -1,1 +1,1 @@
-export { CMMDButton } from './src/Button.js'
+export { CMMDButton } from './src/CMMDButton.js'

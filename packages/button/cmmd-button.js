@@ -1,3 +1,3 @@
-import { CMMDButton } from './src/Button.js';
+import { CMMDButton } from './src/CMMDButton.js';
 
 customElements.define('cmmd-button', CMMDButton);

@@ -3,11 +3,10 @@ import '../cmmd-button.js';
 import { plusIcon, crossIcon } from '@cmmd-web/styles';
 
 export default {
-  title: 'Components',
-  component: 'Button',
+  title: 'Components/Button',
 };
 
-export const button = () =>
+export const example = () =>
   html`
     <cmmd-button>Acept</cmmd-button>
     <cmmd-button danger>Cancel</cmmd-button>

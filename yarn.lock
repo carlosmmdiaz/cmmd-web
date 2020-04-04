@@ -916,6 +916,11 @@
   resolved "https://registry.yarnpkg.com/@base2/pretty-print-object/-/pretty-print-object-1.0.0.tgz#860ce718b0b73f4009e153541faff2cb6b85d047"
   integrity sha512-4Th98KlMHr5+JkxfcoDT//6vY8vM+iSPrLNpHhRyLx2CFYi8e2RfqPLdpbnpo0Q5lQC5hNB79yes07zb02fvCw==
 
+"@bundled-es-modules/message-format@6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@bundled-es-modules/message-format/-/message-format-6.0.4.tgz#232da6877adb960f6c8f598c72588a84352de147"
+  integrity sha512-NGUoPxqsBzDwvRhY3A3L/AhS1hzS9OWappfyDOyCwE7G3W4ua28gau7QwvJz7QzA6ArbAdeb8c1mLjvd1WUFAA==
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -1953,6 +1958,14 @@
   dependencies:
     "@lion/core" "0.5.0"
 
+"@lion/core@0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@lion/core/-/core-0.4.3.tgz#57f76dd49a8e06224dfa3ab407791ed35b9b18d9"
+  integrity sha512-bYajgauEMEPf/p8yoE5atu9Nk2s/96uw3UOOeRLkOrdyfCgiKAO4Kiwgfpp9+/q5pFDj5svYaBpe0kpoaM33jA==
+  dependencies:
+    lit-element "^2.2.1"
+    lit-html "^1.0.0"
+
 "@lion/core@0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@lion/core/-/core-0.5.0.tgz#bfe3d64065f06d2d236ec93d0ffe6f106a88e5ca"
@@ -1962,6 +1975,38 @@
     "@open-wc/scoped-elements" "^1.0.3"
     lit-element "^2.2.1"
     lit-html "^1.0.0"
+
+"@lion/field@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@lion/field/-/field-0.9.0.tgz#29797fd5b87744cb674de74487258780dc947cda"
+  integrity sha512-KyEzglyyULboaujzg41LiJ5kuCF0nl1O3iQQRo/ZCQSIPGpIc2oDx6fIjHgxoSRoLMmWxnI6E0nv0s7cGgNTKg==
+  dependencies:
+    "@lion/core" "0.4.3"
+    "@lion/validate" "0.6.6"
+
+"@lion/input@0.5.10":
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/@lion/input/-/input-0.5.10.tgz#f9bf5858b1d799df3fa1b665ba78b08d0f168e52"
+  integrity sha512-dFUp6KVeUcFL//lhA/PiLOGag9II6WEVwH6U4Vm0YxbexVFeAxJK+NizJ85KcffVIPt4r0GRGXH2X5A3LFz8zw==
+  dependencies:
+    "@lion/core" "0.4.3"
+    "@lion/field" "0.9.0"
+
+"@lion/localize@0.8.6":
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/@lion/localize/-/localize-0.8.6.tgz#b323dce4c0f6717ac2724cc3ab8be1efd4224030"
+  integrity sha512-f/5OvYRoK27vEjECyS7I88XXEeG15FkO+ZoumWMbiWfdV4xlNPTV0LG3ZcThxpj8QLUTKTW/AI+120Vainp2RQ==
+  dependencies:
+    "@bundled-es-modules/message-format" "6.0.4"
+    "@lion/core" "0.4.3"
+
+"@lion/validate@0.6.6":
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/@lion/validate/-/validate-0.6.6.tgz#1c919c427cc9fd071147d21b32d4485593e5b3fe"
+  integrity sha512-PQs/RcNmGNDayQ5P8Jj8P91fnUStbk7/Z4e1kQSkbdgEo/BMzQ2xrjPjgIrOkrYoWPIhtgAXm5bc7jfoQP4CIA==
+  dependencies:
+    "@lion/core" "0.4.3"
+    "@lion/localize" "0.8.6"
 
 "@mdjs/core@^0.1.7":
   version "0.1.7"
@@ -2279,7 +2324,7 @@
     eslint-plugin-no-only-tests "^2.4.0"
     eslint-plugin-wc "^1.2.0"
 
-"@open-wc/prettier-config@^0.1.10":
+"@open-wc/prettier-config@^0.1.14":
   version "0.1.14"
   resolved "https://registry.yarnpkg.com/@open-wc/prettier-config/-/prettier-config-0.1.14.tgz#ee5fa9953b8795fd5df92cfa243f1bdab565c5a3"
   integrity sha512-b30hqVLZLOvtGR0p3cmSvEYnu+OeKA1N/3v8m2u1bRt44+gVHkSOhf2/E90i8gveA6Maz98f0EwYFk03XEM/CA==

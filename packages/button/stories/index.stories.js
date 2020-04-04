@@ -10,10 +10,17 @@ export default {
 export const button = () =>
   html`
     <cmmd-button>Acept</cmmd-button>
-    <br />
-    <cmmd-button secondary>Cancel</cmmd-button>
-    <br />
+    <cmmd-button danger>Cancel</cmmd-button>
+  `;
+
+export const roundButton = () =>
+  html`
     <cmmd-button rounded>${plusIcon}</cmmd-button>
-    <br />
-    <cmmd-button rounded secondary>${crossIcon}</cmmd-button>
+    <cmmd-button rounded danger>${crossIcon}</cmmd-button>
+  `;
+
+export const disabledButton = () =>
+  html`
+    <cmmd-button disabled>Acept</cmmd-button>
+    <cmmd-button rounded disabled>${plusIcon}</cmmd-button>
   `;

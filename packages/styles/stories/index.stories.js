@@ -1,6 +1,6 @@
 import { html } from 'lit-html';
-import '../cmmd-styles.js';
-import { crossIcon, plusIcon, tickIcon } from './../src/icons.js';
+import './demo.js';
+import { crossIcon, plusIcon, tickIcon } from "../src/icons.js";
 
 export default {
   title: 'Styles',

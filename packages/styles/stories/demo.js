@@ -116,3 +116,5 @@ export class StylesDemo extends LitElement {
     `;
   }
 }
+
+window.customElements.define('cmmd-styles', StylesDemo);

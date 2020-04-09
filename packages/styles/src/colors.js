@@ -13,4 +13,6 @@ export const lightBlack = css`#E9E9E8`;
 export const darkBlack = css`#020202`;
 
 export const white = css`#FAFAFA`;
+
 export const grey = css`#E7F2F8`;
+export const darkgrey = css`#7E8488`;

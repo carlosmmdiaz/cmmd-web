@@ -16,12 +16,12 @@
     "format": "npm run format:eslint && npm run format:prettier"
   },
   "devDependencies": {
-    "lerna": "^3.20.2",
     "@open-wc/demoing-storybook": "^1.15.0",
     "@open-wc/eslint-config": "^2.0.0",
-    "@open-wc/prettier-config": "^0.1.10",
+    "@open-wc/prettier-config": "^0.1.14",
     "eslint": "^6.1.0",
     "husky": "^1.0.0",
+    "lerna": "^3.20.2",
     "lint-staged": "^8.0.0"
   },
   "eslintConfig": {

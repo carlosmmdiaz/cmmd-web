@@ -7,6 +7,7 @@ export default {
 
 export const example = () =>
   html`
-    <cmmd-input></cmmd-input>
+    <cmmd-input>
+      <label slot="label">Input with label</label>
+    </cmmd-input>
   `;
-

@@ -10,6 +10,7 @@ import {
   darkRed,
   lightBlack,
   black,
+  CMMDfontFamily,
 } from '@cmmd-web/styles';
 
 export class CMMDButton extends LionButton {
@@ -17,6 +18,9 @@ export class CMMDButton extends LionButton {
     return [
       ...super.styles,
       css`
+        :host {
+          font-family: ${CMMDfontFamily};
+        }
         .btn {
           background: ${blue};
           color: ${white};

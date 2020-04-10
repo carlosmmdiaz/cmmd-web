@@ -15,5 +15,17 @@ import '@cmmd-web/header/cmmd-header.js';
 ## Example
 
 ```html
-<cmmd-header></cmmd-header>
+<cmmd-header title="My App">
+  <cmmd-button danger>Logout</cmmd-button>
+</cmmd-header>
 ```
+
+## Properties
+
+| Name  | Description      | Type      | Optional |
+| ----- | ---------------- | --------- | -------- |
+| title | Title of the app | attribute | No       |
+
+## Slot
+
+All content inside the cmmd-header component will be rendered next to the title.

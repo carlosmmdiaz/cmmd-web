@@ -1,6 +1,6 @@
 import { css, LitElement, html } from 'lit-element';
 
-import { CMMDfontFamily, lightBlue, blue } from '@cmmd-web/styles';
+import { CMMDfontFamily, blue, lightBlack } from '@cmmd-web/styles';
 
 export class CMMDHeader extends LitElement {
   static get properties() {
@@ -16,17 +16,18 @@ export class CMMDHeader extends LitElement {
       }
 
       header {
-        width: 100%;
-        padding: 1rem;
-        border-bottom: 1px solid ${lightBlue};
+        padding: 0.3rem;
         display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid ${lightBlack};
       }
 
       .title {
         width: 100%;
-        text-align: center;
         font-size: 1.5rem;
+        line-height: 2.5rem;
         color: ${blue};
+        margin: 0;
       }
     `;
   }
@@ -34,9 +35,8 @@ export class CMMDHeader extends LitElement {
   render() {
     return html`
       <header>
-        <slot name="logo"></slot>
         <h1 class="title" name="title">${this.title}</h1>
-        <slot name="menu"></slot>
+        <slot></slot>
       </header>
     `;
   }

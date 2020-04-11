@@ -16,3 +16,5 @@ export const white = css`#FAFAFA`;
 
 export const grey = css`#E7F2F8`;
 export const darkgrey = css`#7E8488`;
+
+export const transparentBlack = css`rgba(231, 242, 248, 0.7)`;

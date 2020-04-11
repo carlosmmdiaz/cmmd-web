@@ -1,7 +1,14 @@
 import { LionInput } from '@lion/input';
 import { css } from 'lit-element';
 
-import { darkBlue, black, darkgrey, lightBlue, CMMDfontFamily } from '@cmmd-web/styles';
+import {
+  darkBlue,
+  black,
+  darkgrey,
+  lightBlue,
+  CMMDfontFamily,
+  borderRadiusSize,
+} from '@cmmd-web/styles';
 
 export class CMMDInput extends LionInput {
   static get styles() {
@@ -24,7 +31,7 @@ export class CMMDInput extends LionInput {
 
       .input-group__container > .input-group__input ::slotted(.form-control) {
         font-family: ${CMMDfontFamily};
-        border-radius: 3px;
+        border-radius: ${borderRadiusSize};
         border: 1px solid ${darkgrey};
         font-size: 1rem;
         padding: 6px;

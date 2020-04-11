@@ -8,9 +8,24 @@ export default {
 export const example = () =>
   html`
     <cmmd-image-card
-      imageTitle="Tesla"
-      imageAlt="Image of a Tesla"
-      imageSrc="https://placehold.it/350x150"
+      height="360px"
+      width="640px"
+      src="https://picsum.photos/640/360"
+      title="Lovely image"
+      alt="This is a lovely image"
+    >
+    </cmmd-image-card>
+  `;
+
+export const button = () =>
+  html`
+    <cmmd-image-card
+      height="360px"
+      width="640px"
+      src="https://picsum.photos/640/360"
+      title="Lovely image"
+      alt="This is a lovely image"
+      .buttonRole="${true}"
     >
     </cmmd-image-card>
   `;

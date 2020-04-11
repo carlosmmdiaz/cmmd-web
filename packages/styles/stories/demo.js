@@ -1,4 +1,5 @@
 import { LitElement, css, html } from 'lit-element';
+import { borderRadiusSize } from '../src/sizes.js';
 import {
   blue,
   lightBlue,
@@ -38,7 +39,7 @@ export class StylesDemo extends LitElement {
       .box {
         width: 200px;
         padding: 20px;
-        border-radius: 3px;
+        border-radius: ${borderRadiusSize};
       }
 
       .blue {

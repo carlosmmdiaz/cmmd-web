@@ -1,0 +1,33 @@
+{
+  "name": "@cmmd-web/demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Demo for CMMD components",
+  "author": "carlosmmdiaz",
+  "homepage": "https://github.com/carlosmmdiaz/cmmd-web/packages/demo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosmmdiaz/cmmd-web.git",
+    "directory": "packages/demo"
+  },
+  "keywords": [
+    "cmmd",
+    "web-components",
+    "demo"
+  ],
+  "main": "index.js",
+  "module": "index.js",
+  "dependencies": {
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.0.0",
+    "@cmmd-web/styles": "1.0.0",
+    "@cmmd-web/header": "1.0.0",
+    "@cmmd-web/button": "1.0.0",
+    "@cmmd-web/card": "1.0.0",
+    "@cmmd-web/image-card": "1.0.0",
+    "@cmmd-web/input": "1.0.0"
+  },
+  "devDependencies": {
+    "@open-wc/demoing-storybook": "^1.15.0"
+  }
+}

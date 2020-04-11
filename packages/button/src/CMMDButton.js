@@ -11,6 +11,7 @@ import {
   lightBlack,
   black,
   CMMDfontFamily,
+  borderRadiusSize,
 } from '@cmmd-web/styles';
 
 export class CMMDButton extends LionButton {
@@ -25,7 +26,7 @@ export class CMMDButton extends LionButton {
           background: ${blue};
           color: ${white};
           padding: 0.5rem 0.75rem;
-          border-radius: 3px;
+          border-radius: ${borderRadiusSize};
           cursor: pointer;
         }
 

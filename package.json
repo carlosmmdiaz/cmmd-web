@@ -1,9 +1,23 @@
 {
   "name": "@cmmd-web/root",
+  "description": "Design System for CMMD applications using Web Components.",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosmmdiaz/cmmd-web.git"
+  },
+  "keywords": [
+    "cmmd-web"
+  ],
+  "author": "carlosmmdiaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlosmmdiaz/cmmd-web/issues"
+  },
+  "homepage": "https://github.com/carlosmmdiaz/cmmd-web#readme",
   "scripts": {
     "start": "npm run storybook",
     "storybook": "start-storybook --node-resolve --watch --open",

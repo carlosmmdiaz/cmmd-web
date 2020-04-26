@@ -1,6 +1,5 @@
 {
   "name": "@cmmd-web/demo",
-  "private": true,
   "version": "1.0.1",
   "description": "Demo for CMMD components",
   "author": "carlosmmdiaz",

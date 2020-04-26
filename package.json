@@ -1,6 +1,5 @@
 {
   "name": "@cmmd-web/root",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],

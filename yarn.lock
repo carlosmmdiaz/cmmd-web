@@ -1958,6 +1958,24 @@
   dependencies:
     "@lion/core" "0.5.0"
 
+"@lion/checkbox-group@0.8.7":
+  version "0.8.7"
+  resolved "https://registry.yarnpkg.com/@lion/checkbox-group/-/checkbox-group-0.8.7.tgz#c55f80f8bf7fe2351e8e3a8b720fb253eeaabe98"
+  integrity sha512-cOhRpYoJXsa1KgelTrrPbe0Jm2zSWaCT9p62nRYO8Af32l3X7UKZsZiOwIIkKqZqwHMPaJsb83LIusBJD6AMMA==
+  dependencies:
+    "@lion/choice-input" "0.8.1"
+    "@lion/core" "0.5.1"
+    "@lion/fieldset" "0.10.1"
+    "@lion/input" "0.5.21"
+
+"@lion/choice-input@0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@lion/choice-input/-/choice-input-0.8.1.tgz#2355f31467894ecbb1d6a0e07800fd64f9741dca"
+  integrity sha512-xW82nsH7bc6a+GyfmdZUQANU+4Y7SJBNd1yN4gERDvvmnPnhcJ68ChfYR5dC4kRa+VF7zkOB3RQmOk+tGd+64w==
+  dependencies:
+    "@lion/core" "0.5.1"
+    "@lion/field" "0.12.1"
+
 "@lion/core@0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@lion/core/-/core-0.4.3.tgz#57f76dd49a8e06224dfa3ab407791ed35b9b18d9"
@@ -1976,6 +1994,24 @@
     lit-element "^2.2.1"
     lit-html "^1.0.0"
 
+"@lion/core@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@lion/core/-/core-0.5.1.tgz#139afbc69ffb31f07ea61c38e1e489412be1aeee"
+  integrity sha512-WpMHFUeP78NduTtSrhoJqHqFG5ZjNrvYvHxXSB/gzkeHQ/hYTMlQD6UoeNeWvUixllUBCizls4RHJGTKwrWOzg==
+  dependencies:
+    "@open-wc/dedupe-mixin" "^1.2.1"
+    "@open-wc/scoped-elements" "^1.0.3"
+    lit-element "^2.2.1"
+    lit-html "^1.0.0"
+
+"@lion/field@0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@lion/field/-/field-0.12.1.tgz#7d71bdb21f061ce80778f7416dd36deef8c909a3"
+  integrity sha512-eeTMsPc8hq2g5kF0K4H7EX7Tc3JsiEcOTO9MLAXquJdWVDklO4z+8B6WVlTLIJjURlmaJ1dJeNIjkHyNNqYdgA==
+  dependencies:
+    "@lion/core" "0.5.1"
+    "@lion/validate" "0.9.1"
+
 "@lion/field@0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@lion/field/-/field-0.9.0.tgz#29797fd5b87744cb674de74487258780dc947cda"
@@ -1983,6 +2019,15 @@
   dependencies:
     "@lion/core" "0.4.3"
     "@lion/validate" "0.6.6"
+
+"@lion/fieldset@0.10.1":
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/@lion/fieldset/-/fieldset-0.10.1.tgz#393cc275f9c99b447e7ea5326466500c61f34b0a"
+  integrity sha512-VGb+t0nP95OTtrufpqdEIXKD78qr8iwSznOjjAcxP+zxNimAKyUR9K0ti9ah1A9z7E0vZC6i5IJbMXxeP+YOkg==
+  dependencies:
+    "@lion/core" "0.5.1"
+    "@lion/field" "0.12.1"
+    "@lion/validate" "0.9.1"
 
 "@lion/input@0.5.10":
   version "0.5.10"
@@ -1992,6 +2037,14 @@
     "@lion/core" "0.4.3"
     "@lion/field" "0.9.0"
 
+"@lion/input@0.5.21":
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/@lion/input/-/input-0.5.21.tgz#fee307bf1b96d8da5fad9bfe889e37b597e36768"
+  integrity sha512-6ixX5TDRrjqP4+ELXlZvj8X6wjDbAXG20ckoiz3JbZP/AM1o4DQ5v+zdWACLz368TpDSKe+sycp7snLwhbqQ9g==
+  dependencies:
+    "@lion/core" "0.5.1"
+    "@lion/field" "0.12.1"
+
 "@lion/localize@0.8.6":
   version "0.8.6"
   resolved "https://registry.yarnpkg.com/@lion/localize/-/localize-0.8.6.tgz#b323dce4c0f6717ac2724cc3ab8be1efd4224030"
@@ -2000,6 +2053,14 @@
     "@bundled-es-modules/message-format" "6.0.4"
     "@lion/core" "0.4.3"
 
+"@lion/localize@0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@lion/localize/-/localize-0.9.1.tgz#a3440942cd2bdcbc72ae29d0ab2abb17a78dbdb1"
+  integrity sha512-2bIpgu4Fsu2VcrMbNMBl1LDpQqBav6XPmlxNiXnGlUGNy3mZA4m673rIUfoD35bYveoqkvlwgBIhc12hvrILcQ==
+  dependencies:
+    "@bundled-es-modules/message-format" "6.0.4"
+    "@lion/core" "0.5.1"
+
 "@lion/validate@0.6.6":
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/@lion/validate/-/validate-0.6.6.tgz#1c919c427cc9fd071147d21b32d4485593e5b3fe"
@@ -2007,6 +2068,14 @@
   dependencies:
     "@lion/core" "0.4.3"
     "@lion/localize" "0.8.6"
+
+"@lion/validate@0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@lion/validate/-/validate-0.9.1.tgz#e4e201e4f2a4aef1733161e22812648b60cdcae7"
+  integrity sha512-lSq+3D/PHgepi2vPC3UG1kLLl86BSNXvj5J8KLcuTBt/ypJoWyDwlOooxHsNbj7RiBUPosJejf+fGyxlagF0IQ==
+  dependencies:
+    "@lion/core" "0.5.1"
+    "@lion/localize" "0.9.1"
 
 "@mdjs/core@^0.1.7":
   version "0.1.7"

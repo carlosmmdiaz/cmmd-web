@@ -1,0 +1,28 @@
+{
+  "name": "@cmmd-web/checkbox",
+  "version": "1.0.0",
+  "description": "Checkbox for CMMD applications",
+  "author": "carlosmmdiaz",
+  "homepage": "https://github.com/carlosmmdiaz/cmmd-web/packages/checkbox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosmmdiaz/cmmd-web.git",
+    "directory": "packages/checkbox"
+  },
+  "keywords": [
+    "cmmd",
+    "web-components",
+    "checkbox"
+  ],
+  "main": "index.js",
+  "module": "index.js",
+  "dependencies": {
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.0.0",
+    "@cmmd-web/styles": "1.0.0",
+    "@lion/checkbox-group": "0.8.7"
+  },
+  "devDependencies": {
+    "@open-wc/demoing-storybook": "^1.15.0"
+  }
+}

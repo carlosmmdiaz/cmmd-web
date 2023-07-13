@@ -18,6 +18,7 @@ yarn-error.log
 ## build artifacts
 /lib/
 /build/
+/storybook-static/
 
 ## temp folders
 /.tmp/

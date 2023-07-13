@@ -18,7 +18,7 @@ Then install all dependencies:
 yarn install
 ```
 
-And finally to see the CMMD-WEB components runing launch the storybook:
+And finally to see the CMMD-WEB components running launch the storybook:
 
 ```bash
 yarn storybook

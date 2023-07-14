@@ -1,4 +1,4 @@
-import { css } from 'lit-element';
+import { css } from 'lit';
 import { LionCheckbox } from '@lion/checkbox-group/src/LionCheckbox.js';
 import { CMMDfontFamily, darkBlue, lightBlue } from '@cmmd-web/styles';
 

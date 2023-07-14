@@ -1,4 +1,4 @@
-import { css, LitElement, html } from 'lit-element';
+import { css, LitElement, html } from 'lit';
 
 import { grey, darkgrey, borderRadiusSize } from '@cmmd-web/styles';
 

@@ -1,4 +1,4 @@
-import { css } from 'lit-element';
+import { css } from 'lit';
 import { LionButton } from '@lion/button';
 
 import {

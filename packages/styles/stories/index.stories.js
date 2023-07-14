@@ -1,17 +1,11 @@
-import { html } from 'lit-html';
 import './demo.js';
-import { crossIcon, plusIcon, tickIcon } from "../src/icons.js";
+import { crossIcon, plusIcon, tickIcon } from '../src/icons.js';
 
 export default {
   title: 'Styles',
   component: 'Colors',
 };
 
-export const colors = () =>
-  html`
-    <cmmd-styles></cmmd-styles>
-  `;
-export const icons = () =>
-  html`
-    ${crossIcon} ${plusIcon} ${tickIcon}
-  `;
+export const colors = () => `<cmmd-styles></cmmd-styles>`;
+
+export const icons = () => `${crossIcon} ${plusIcon} ${tickIcon}`;

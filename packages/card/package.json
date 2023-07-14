@@ -21,8 +21,7 @@
   "module": "index.js",
   "dependencies": {
     "@cmmd-web/styles": "^1.1.0",
-    "lit-element": "^2.2.1",
-    "lit-html": "^1.0.0"
+    "lit": "^2.7.6"
   },
   "devDependencies": {
     "@open-wc/demoing-storybook": "^1.15.0"

@@ -1,5 +1,5 @@
 import { LionInput } from '@lion/input';
-import { css } from 'lit-element';
+import { css } from 'lit';
 
 import {
   darkBlue,

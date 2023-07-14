@@ -20,7 +20,7 @@
   "homepage": "https://github.com/carlosmmdiaz/cmmd-web#readme",
   "scripts": {
     "start": "npm run storybook",
-    "storybook": "start-storybook --node-resolve --watch --open",
+    "storybook": "web-dev-server --config .storybook/server.config.mjs",
     "storybook:build": "build-storybook",
     "lint:eslint": "eslint --ext .js,.html . --ignore-path .gitignore",
     "format:eslint": "eslint --ext .js,.html . --fix --ignore-path .gitignore",
@@ -30,7 +30,8 @@
     "format": "npm run format:eslint && npm run format:prettier"
   },
   "devDependencies": {
-    "@open-wc/demoing-storybook": "^1.15.0",
+    "@web/dev-server-storybook": "^0.7.4",
+    "@web/dev-server": "^0.3.0",
     "@open-wc/eslint-config": "^2.0.0",
     "@open-wc/prettier-config": "^0.1.14",
     "eslint": "^6.1.0",

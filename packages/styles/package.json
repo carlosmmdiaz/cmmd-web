@@ -19,8 +19,8 @@
   },
   "main": "index.js",
   "module": "index.js",
-  "devDependencies": {
-    "@open-wc/demoing-storybook": "^0.2.0"
+  "dependencies": {
+    "lit": "^2.7.6"
   },
   "gitHead": "b0d178e3842f8bc060aaad6309f0ffbbb9b81f38"
 }

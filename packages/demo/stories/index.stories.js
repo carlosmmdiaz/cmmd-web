@@ -1,4 +1,4 @@
-import { html } from 'lit-html';
+import { html } from 'lit';
 import '@cmmd-web/header/cmmd-header.js';
 import '@cmmd-web/button/cmmd-button.js';
 import '@cmmd-web/card/cmmd-card.js';

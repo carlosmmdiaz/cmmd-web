@@ -1,5 +1,5 @@
-import { html } from 'lit-html';
 import '@cmmd-web/button/cmmd-button.js';
+
 import '../cmmd-header.js';
 
 export default {
@@ -7,8 +7,8 @@ export default {
 };
 
 export const example = () =>
-  html`
-    <cmmd-header title="My App">
+  `
+    <cmmd-header headerTitle="My App">
       <cmmd-button danger>Logout</cmmd-button>
     </cmmd-header>
   `;

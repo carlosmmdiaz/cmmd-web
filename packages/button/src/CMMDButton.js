@@ -1,4 +1,4 @@
-import { css } from 'lit-element';
+import { css } from 'lit';
 import { LionButton } from '@lion/button';
 
 import {
@@ -21,8 +21,6 @@ export class CMMDButton extends LionButton {
       css`
         :host {
           font-family: ${CMMDfontFamily};
-        }
-        .btn {
           background: ${blue};
           color: ${white};
           padding: 0.5rem 0.75rem;
@@ -30,24 +28,24 @@ export class CMMDButton extends LionButton {
           cursor: pointer;
         }
 
-        :host([disabled]) .btn,
-        :host([disabled][danger]) .btn {
+        :host([disabled]),
+        :host([disabled][danger]) {
           background: ${lightBlack};
           color: ${black};
           fill: ${black};
         }
 
-        :host(:focus:not([disabled])) .btn {
+        :host(:focus:not([disabled])) {
           outline: 2px solid ${lightBlue};
         }
 
-        :host(:hover) .btn,
-        :host(:active) .btn,
-        :host([active]) .btn {
+        :host(:hover),
+        :host(:active),
+        :host([active]) {
           background: ${darkBlue};
         }
 
-        :host([rounded]) .btn {
+        :host([rounded]) {
           border-radius: 50%;
           padding: 0.3rem 0.45rem;
         }
@@ -56,13 +54,13 @@ export class CMMDButton extends LionButton {
           fill: ${white};
         }
 
-        :host([danger]) .btn {
+        :host([danger]) {
           background: ${red};
           color: ${white};
         }
 
-        :host(:hover[danger]) .btn,
-        :host([active][danger]) .btn {
+        :host(:hover[danger]),
+        :host([active][danger]) {
           background: ${darkRed};
         }
       `,

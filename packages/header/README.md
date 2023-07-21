@@ -22,9 +22,9 @@ import '@cmmd-web/header/cmmd-header.js';
 
 ## Properties
 
-| Name  | Description      | Type      | Optional |
-| ----- | ---------------- | --------- | -------- |
-| title | Title of the app | attribute | No       |
+| Name        | Description      | Type      | Optional |
+| ----------- | ---------------- | --------- | -------- |
+| headerTitle | Title of the app | attribute | No       |
 
 ## Slot
 

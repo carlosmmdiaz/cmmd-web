@@ -1,4 +1,4 @@
-import { LitElement, css, html } from 'lit-element';
+import { LitElement, css, html } from 'lit';
 import { borderRadiusSize } from '../src/sizes.js';
 import {
   blue,
@@ -102,15 +102,12 @@ export class StylesDemo extends LitElement {
         <li class="box lightBlue">lightBlue ${lightBlue}</li>
         <li class="box blue">blue ${blue}</li>
         <li class="box darkBlue">darkBlue ${darkBlue}</li>
-        <br />
         <li class="box lightRed">lightRed ${lightRed}</li>
         <li class="box red">red ${red}</li>
         <li class="box darkRed">darkRed ${darkRed}</li>
-        <br />
         <li class="box lightBlack">lightBlack ${lightBlack}</li>
         <li class="box black">black ${black}</li>
         <li class="box darkBlack">darkBlack ${darkBlack}</li>
-        <br />
         <li class="box white">white ${white}</li>
         <li class="box grey">grey ${grey}</li>
       </ul>

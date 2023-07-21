@@ -1,4 +1,3 @@
-import { html } from 'lit-html';
 import '../cmmd-card.js';
 
 export default {
@@ -6,7 +5,7 @@ export default {
 };
 
 export const example = () =>
-  html`
+  `
     <cmmd-card>
       <div>
         Lucas ipsum dolor sit amet wedge mustafar kessel luke yoda utapau darth hutt organa mace.

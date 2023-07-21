@@ -1,6 +1,4 @@
-import { html } from 'lit-html';
-
-export const plusIcon = html`
+export const plusIcon = `
   <svg
     height="20px"
     id="Layer_1"
@@ -18,7 +16,7 @@ export const plusIcon = html`
   </svg>
 `;
 
-export const crossIcon = html`
+export const crossIcon = `
   <svg
     height="20px"
     id="Layer_1"
@@ -36,7 +34,7 @@ export const crossIcon = html`
   </svg>
 `;
 
-export const tickIcon = html`
+export const tickIcon = `
   <svg
     height="20px"
     id="Layer_1"

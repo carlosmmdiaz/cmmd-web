@@ -1,4 +1,4 @@
-import { css, LitElement, html } from 'lit-element';
+import { css, LitElement, html } from 'lit';
 
 import {
   lightBlue,
@@ -11,7 +11,7 @@ import {
 export class CMMDImageCard extends LitElement {
   static get properties() {
     return {
-      title: { type: String },
+      imageCardTitle: { type: String },
       alt: { type: String },
       src: { type: String },
       width: { type: String },
@@ -65,9 +65,7 @@ export class CMMDImageCard extends LitElement {
   }
 
   renderTitle() {
-    return html`
-      <div class="title">${this.title}</div>
-    `;
+    return html` <div class="title">${this.imageCardTitle}</div> `;
   }
 
   render() {
@@ -78,10 +76,6 @@ export class CMMDImageCard extends LitElement {
         </div>
       `;
     }
-    return html`
-      <div class="card">
-        ${this.renderImage()} ${this.renderTitle()}
-      </div>
-    `;
+    return html` <div class="card">${this.renderImage()} ${this.renderTitle()}</div> `;
   }
 }

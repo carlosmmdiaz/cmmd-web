@@ -1,4 +1,4 @@
-import { css } from 'lit-element';
+import { css } from 'lit';
 
 export const blue = css`#007ab9`;
 export const lightBlue = css`#8BC2DF`;
@@ -15,6 +15,6 @@ export const darkBlack = css`#020202`;
 export const white = css`#FAFAFA`;
 
 export const grey = css`#E7F2F8`;
-export const darkgrey = css`#7E8488`;
+export const darkGrey = css`#7E8488`;
 
 export const transparentBlack = css`rgba(231, 242, 248, 0.7)`;

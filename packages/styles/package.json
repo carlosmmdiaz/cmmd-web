@@ -1,6 +1,6 @@
 {
   "name": "@cmmd-web/styles",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Styles for CMMD applications",
   "author": "carlosmmdiaz",
   "homepage": "https://github.com/carlosmmdiaz/cmmd-web/packages/styles",
@@ -19,8 +19,8 @@
   },
   "main": "index.js",
   "module": "index.js",
-  "devDependencies": {
-    "@open-wc/demoing-storybook": "^0.2.0"
+  "dependencies": {
+    "lit": "^2.7.6"
   },
   "gitHead": "b0d178e3842f8bc060aaad6309f0ffbbb9b81f38"
 }

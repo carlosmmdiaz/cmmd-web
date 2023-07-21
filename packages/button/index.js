@@ -1,1 +1,1 @@
-export { CMMDButton } from './src/CMMDButton.js'
+export { CMMDButton } from './src/CMMDButton.js';

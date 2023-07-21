@@ -5,7 +5,7 @@ import { CMMDfontFamily, blue, lightBlack } from '@cmmd-web/styles';
 export class CMMDHeader extends LitElement {
   static get properties() {
     return {
-      title: { type: String },
+      headerTitle: { type: String },
     };
   }
 
@@ -22,7 +22,7 @@ export class CMMDHeader extends LitElement {
         border-bottom: 1px solid ${lightBlack};
       }
 
-      .title {
+      .headerTitle {
         width: 100%;
         font-size: 1.5rem;
         line-height: 2.5rem;
@@ -35,7 +35,7 @@ export class CMMDHeader extends LitElement {
   render() {
     return html`
       <header>
-        <h1 class="title" name="title">${this.title}</h1>
+        <h1 class="headerTitle" name="headerTitle">${this.headerTitle}</h1>
         <slot></slot>
       </header>
     `;

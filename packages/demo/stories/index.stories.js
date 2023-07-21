@@ -1,4 +1,3 @@
-import { html } from 'lit';
 import '@cmmd-web/header/cmmd-header.js';
 import '@cmmd-web/button/cmmd-button.js';
 import '@cmmd-web/card/cmmd-card.js';
@@ -11,9 +10,9 @@ export default {
 };
 
 export const example = () =>
-  html`
+  `
     <div>
-      <cmmd-header title="My App">
+      <cmmd-header headerTitle="My App">
         <cmmd-button danger>Logout</cmmd-button>
       </cmmd-header>
       <br />
@@ -21,7 +20,7 @@ export const example = () =>
         height="150px"
         width="300px"
         src="https://picsum.photos/300/150"
-        title="Car 1"
+        imageCardTitle="Car 1"
         alt="This is a car"
         .buttonRole="${true}"
       >

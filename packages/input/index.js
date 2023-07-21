@@ -1,1 +1,1 @@
-export { CMMDInput } from './src/CMMDInput.js'
+export { CMMDInput } from './src/CMMDInput.js';

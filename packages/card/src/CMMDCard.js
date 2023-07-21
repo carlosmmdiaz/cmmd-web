@@ -1,15 +1,19 @@
 import { css, LitElement, html } from 'lit';
 
-import { grey, darkgrey, borderRadiusSize } from '@cmmd-web/styles';
+import { grey, darkGrey, borderRadiusSize, CMMDfontFamily } from '@cmmd-web/styles';
 
 export class CMMDCard extends LitElement {
   static get styles() {
     return css`
+      :host {
+        font-family: ${CMMDfontFamily};
+      }
+
       .card {
         background: ${grey};
         padding: 1rem;
         border-radius: ${borderRadiusSize};
-        box-shadow: 1rem 1rem 1rem -1rem ${darkgrey};
+        box-shadow: 1rem 1rem 1rem -1rem ${darkGrey};
       }
     `;
   }

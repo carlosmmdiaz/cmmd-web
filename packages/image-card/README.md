@@ -27,6 +27,12 @@ import '@cmmd-web/card/cmmd-card.js';
 </cmmd-card>
 ```
 
+## Properties
+
+| Name           | Description       | Type      | Optional |
+| -------------- | ----------------- | --------- | -------- |
+| imageCardTitle | Title of the card | attribute | Yes      |
+
 ## Slot
 
 All content inside the cmmd-card component will be rendered inside the card.

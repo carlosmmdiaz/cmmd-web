@@ -23,8 +23,5 @@
     "@cmmd-web/styles": "^1.1.0",
     "lit": "^2.7.6"
   },
-  "devDependencies": {
-    "@open-wc/demoing-storybook": "^1.15.0"
-  },
   "gitHead": "b0d178e3842f8bc060aaad6309f0ffbbb9b81f38"
 }

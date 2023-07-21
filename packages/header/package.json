@@ -1,6 +1,6 @@
 {
   "name": "@cmmd-web/header",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Header for CMMD applications",
   "author": "carlosmmdiaz",
   "homepage": "https://github.com/carlosmmdiaz/cmmd-web/packages/header",
@@ -20,11 +20,11 @@
   "main": "index.js",
   "module": "index.js",
   "dependencies": {
-    "@cmmd-web/styles": "^1.1.0",
+    "@cmmd-web/styles": "^2.0.0",
     "lit": "^2.7.6"
   },
   "devDependencies": {
-    "@cmmd-web/button": "^1.1.0"
+    "@cmmd-web/button": "^2.0.0"
   },
   "gitHead": "b0d178e3842f8bc060aaad6309f0ffbbb9b81f38"
 }

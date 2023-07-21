@@ -1,6 +1,6 @@
 {
   "name": "@cmmd-web/demo",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Demo for CMMD components",
   "author": "carlosmmdiaz",
   "homepage": "https://github.com/carlosmmdiaz/cmmd-web/packages/demo",
@@ -20,12 +20,12 @@
   "main": "index.js",
   "module": "index.js",
   "dependencies": {
-    "@cmmd-web/button": "^1.1.0",
-    "@cmmd-web/card": "^1.1.0",
-    "@cmmd-web/header": "^1.1.0",
-    "@cmmd-web/image-card": "^1.1.0",
-    "@cmmd-web/input": "^1.1.0",
-    "@cmmd-web/styles": "^1.1.0"
+    "@cmmd-web/button": "^2.0.0",
+    "@cmmd-web/card": "^2.0.0",
+    "@cmmd-web/header": "^2.0.0",
+    "@cmmd-web/image-card": "^2.0.0",
+    "@cmmd-web/input": "^2.0.0",
+    "@cmmd-web/styles": "^2.0.0"
   },
   "gitHead": "b0d178e3842f8bc060aaad6309f0ffbbb9b81f38"
 }

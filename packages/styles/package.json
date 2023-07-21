@@ -1,6 +1,6 @@
 {
   "name": "@cmmd-web/styles",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Styles for CMMD applications",
   "author": "carlosmmdiaz",
   "homepage": "https://github.com/carlosmmdiaz/cmmd-web/packages/styles",
